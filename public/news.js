@@ -32,3 +32,7 @@ function getNews(initial){
     document.querySelector('#content').textContent = allNews[count].content;
     document.querySelector('#headline').textContent = allNews[count].headline;
 }
+
+if(typeof exports !== 'undefined') {
+    exports.allNews = allNews;
+}

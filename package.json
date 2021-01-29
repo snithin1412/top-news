@@ -1,0 +1,26 @@
+{
+  "name": "top-news",
+  "version": "1.0.0",
+  "description": "breaking news",
+  "scripts": {
+    "test": "mocha public/news.test.js",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snithin1412/top-news.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snithin1412/top-news/issues"
+  },
+  "homepage": "https://github.com/snithin1412/top-news#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
